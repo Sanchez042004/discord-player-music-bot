@@ -81,7 +81,7 @@ DEVELOPMENT_MODE=false
 
 By following these steps and customizing the `.env` file with your specific configuration, you can effectively set up the Discord Player Bot according to your requirements.
 
-```node
+```bash
 node src/index.js
 ```
 
