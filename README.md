@@ -51,6 +51,10 @@ To configure the Discord Player Bot, you'll need to set up environment variables
 
 1. **Create `.env` File**: In the root directory of the cloned repository, create a new file named `.env`.
 
+3. **Use `.env.sample` as Template**: Open the `.env.sample` file provided in the repository. This file contains a template with placeholders for environment variables.
+
+4. **Fill in Environment Variables**: Replace the placeholder values in the `.env.sample` file with your actual values. Refer to the comments in the file for guidance on each variable.
+
  ```bash
 # Discord Bot Token
 DISCORD_TOKEN="your_token"
@@ -70,10 +74,6 @@ REGISTER_COMMANDS=true
 # Development Mode (true/false)
 DEVELOPMENT_MODE=false
 ```
-
-3. **Use `.env.sample` as Template**: Open the `.env.sample` file provided in the repository. This file contains a template with placeholders for environment variables.
-
-4. **Fill in Environment Variables**: Replace the placeholder values in the `.env.sample` file with your actual values. Refer to the comments in the file for guidance on each variable.
 
 5. **Save as `.env`**: After filling in the environment variables, save the file as `.env` in the same directory. This file will be used by the bot to load configuration during runtime.
 
