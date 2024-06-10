@@ -26,7 +26,7 @@ export function execute(interaction) {
   );
   const commandCount = commands.size;
   const uptime = formatDuration(client.uptime);
-  const createdAt = new Date(client.user.createdAt);
+  const createdAt = new Date(2024, 5, 10, 18, 0, 0, 0);
   const inviteLink = `https://discord.com/api/oauth2/authorize?client_id=${client.user.id}&permissions=8&scope=bot%20applications.commands`;
 
   const embed = BaseEmbed()
@@ -41,6 +41,7 @@ export function execute(interaction) {
 Bot Tag: ${client.user.tag}
 Created At : ${time(createdAt, "F")}
 Developer: [LakhindarPal](https://lakhindar.is-a.dev)
+Owner: [Your-Name](https://github.com/your-github)
 Prefix: /`,
       },
       {
