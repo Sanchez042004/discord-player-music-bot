@@ -41,7 +41,7 @@ export function execute(interaction) {
 Bot Tag: ${client.user.tag}
 Created At : ${time(createdAt, "F")}
 Developer: [LakhindarPal](https://lakhindar.is-a.dev)
-Owner: [Your-Name](https://github.com/your-github)
+Reenactor: [Your-Name](https://github.com/your-github)
 Prefix: /`,
       },
       {
