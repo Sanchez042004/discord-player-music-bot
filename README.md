@@ -33,7 +33,19 @@ Before diving into the setup process, ensure you have the following prerequisite
 - **NPM**: A package manager is required. NPM comes bundled with Node.js, so no separate installation is required.
 - **FFmpeg or Avconv**: Ensure you have FFmpeg or Avconv installed for media transcoding. You can download (recommended) FFmpeg from the [official website](https://ffmpeg.org/download.html) or install it via npm `npm i ffmpeg-static`.
 
-### Config
+### Config & Setup
+
+Before start make sure you've done the above process.
+
+## Clone the repository
+
+```bash
+git clone lakhindarpal/discord-player-bot
+```
+
+```bash
+cd discord-player-bot
+```
 
 To configure the Discord Player Bot, you'll need to set up environment variables in a `.env` file. Here's how to do it:
 
