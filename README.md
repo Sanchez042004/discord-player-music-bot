@@ -40,7 +40,7 @@ Before start make sure you've done the above process.
 ## Clone the repository
 
 ```bash
-git clone lakhindarpal/discord-player-bot
+git clone https://github.com/LakhindarPal/discord-player-bot
 ```
 
 ```bash
