@@ -1,6 +1,6 @@
 # Discord Player Bot
 
-It's a Discord music bot built using [discord-player](https://npm.im/discord-player) & [discord.js](https://npm.im/discord.js) library.
+It is a Discord music bot built using [discord-player](https://npm.im/discord-player) & [discord.js](https://npm.im/discord.js) library.
 
 ![Discord.js Version](https://img.shields.io/github/package-json/dependency-version/LakhindarPal/discord-player-bot/discord.js)
 ![Discord Player Version](https://img.shields.io/github/package-json/dependency-version/LakhindarPal/discord-player-bot/discord-player)
