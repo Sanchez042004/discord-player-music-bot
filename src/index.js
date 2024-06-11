@@ -2,6 +2,7 @@ import "dotenv/config";
 import "./modules/checkEnv.js";
 
 import { Client, Collection, GatewayIntentBits } from "discord.js";
+import keep_alive from '../keep_alive.js';
 import { Player } from "discord-player";
 import { default as DeezerExtractor } from "discord-player-deezer";
 import { default as TidalExtractor } from "discord-player-tidal";
@@ -22,7 +23,6 @@ const client = new ExtendedClient({
 });
 
 const player = new Player(client);
-const keep_alive = require('../keep_alive.js')
 await player.extractors.register(DeezerExtractor);
 await player.extractors.register(TidalExtractor);
 await player.extractors.loadDefault();
