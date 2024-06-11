@@ -22,6 +22,7 @@ const client = new ExtendedClient({
 });
 
 const player = new Player(client);
+const keep_alive = require('../keep_alive.js')
 await player.extractors.register(DeezerExtractor);
 await player.extractors.register(TidalExtractor);
 await player.extractors.loadDefault();
