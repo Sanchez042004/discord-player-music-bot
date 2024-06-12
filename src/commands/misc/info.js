@@ -41,7 +41,7 @@ export function execute(interaction) {
 Bot Tag: ${client.user.tag}
 Created At : ${time(createdAt, "F")}
 Developer: [LakhindarPal](https://lakhindar.is-a.dev)
-Reenactor: [Your-Name](https://github.com/your-github)
+Owner: [Dystra (Andrés Sánchez)](https://github.com/Sanchez042004)
 Prefix: /`,
       },
       {
@@ -85,3 +85,4 @@ Platform: ${process.platform}`,
     components: [buttonsRow],
   });
 }
+
